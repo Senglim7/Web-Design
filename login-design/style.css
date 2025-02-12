@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/qq.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    background-color: yellow;
+    width: 350px;
+    height: 350px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+.login h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+

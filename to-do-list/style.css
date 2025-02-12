@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.input-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.todo-list li span {
+  flex: 1;
+}
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+.todo-list button {
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.todo-list button.edit {
+  color: blue;
+}
+.todo-list button.delete {
+  color: red;
+}
+.todo-list button.complete {
+  color: green;
+}
