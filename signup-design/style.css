@@ -1,0 +1,149 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+
+/* Login Wrapper Styling */
+.login-wrapper {
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    backdrop-filter: blur(10px); /* Smooth blurred background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
+    text-align: center;
+    width: 350px;
+}
+
+/* Title Styling */
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Paragraph Styling (for description or small text) */
+p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Input Box Styling */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent input field */
+    color: white;
+    transition: background 0.3s ease-in-out;
+}
+
+.input-box input:focus {
+    background: rgba(255, 255, 255, 0.4); /* Focus background effect */
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+    top: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+/* Terms and Conditions Section */
+.terms {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.terms input {
+    margin-right: 10px;
+    accent-color: #1e90ff; /* Blue accent for the checkbox */
+    transform: scale(1.2); /* Slightly larger checkbox */
+}
+
+.terms label {
+    display: flex;
+    align-items: center;
+}
+
+.terms label span {
+    margin-right: 5px;
+}
+
+.terms a {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.terms a:hover {
+    color: #0073e6;
+}
+
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1e90ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0073e6;
+}
+
+/* Signup Link Styling */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.signup-link a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

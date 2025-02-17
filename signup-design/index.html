@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign Up Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS -->
+</head>
+<body>
+  <!-- Main Sign Up Wrapper -->
+  <div class="login-wrapper">
+    <!-- Sign Up Form Content -->
+    <h2>Create Your Account</h2>
+    
+    <!-- Form Element -->
+    <form action="#" method="POST">
+      <!-- Full Name Input -->
+      <div class="input-box">
+        <input type="text" id="fullname" name="fullname" required>
+        <label for="fullname">Full Name</label>
+      </div>
+
+      <!-- Email Address Input -->
+      <div class="input-box">
+        <input type="email" id="email" name="email" required>
+        <label for="email">Email Address</label>
+      </div>
+      
+      <!-- Password Input -->
+      <div class="input-box">
+        <input type="password" id="password" name="password" required>
+        <label for="password">Password</label>
+      </div>
+      
+      <!-- Confirm Password Input -->
+      <div class="input-box">
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <label for="confirm-password">Confirm Password</label>
+      </div>
+   <!-- Terms and Conditions Section -->
+<div class="terms">
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">
+      <span>I agree to the</span> 
+      <a href="#">Terms & Conditions</a>
+    </label>
+  </div>
+  
+      
+      <!-- Submit Button -->
+      <button type="submit">Sign Up</button>
+    </form>
+    
+    <!-- Login Link for Existing Users -->
+    <div class="signup-link">
+      <p>Already have an account? <a href="/login-design/login-form.html">Login</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
